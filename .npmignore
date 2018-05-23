@@ -5,3 +5,4 @@ test
 demo/
 .eslintrc.json
 .gitignore
+.idea
