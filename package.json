@@ -4,7 +4,8 @@
   "description": "Transport mails to mbox format",
   "main": "lib/mbox-transport.js",
   "scripts": {
-    "test": "./node_modules/tape/bin/tape 'test/**/*.spec.js'"
+    "test": "./node_modules/tape/bin/tape 'test/**/*.spec.js'",
+    "lint": "./node_modules/.bin/eslint '*/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/pille72/nodemailer-mbox-transport#readme",
   "devDependencies": {
+    "eslint": "^4.19.1",
     "mailparser": "^2.2.0",
     "node-mbox": "^1.0.0",
     "nodemailer": "^4.6.4",
