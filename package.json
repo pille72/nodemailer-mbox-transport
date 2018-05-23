@@ -1,6 +1,6 @@
 {
   "name": "nodemailer-mbox-transport",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Transport mails to mbox format",
   "main": "lib/mbox-transport.js",
   "scripts": {
