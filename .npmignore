@@ -6,3 +6,5 @@ demo/
 .eslintrc.json
 .gitignore
 .idea
+test.js
+test.mbox
